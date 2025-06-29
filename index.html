@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Shop Sederhana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin: 15px;
+      padding: 15px;
+      width: 200px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+
+    .product p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .price {
+      font-weight: bold;
+      margin: 10px 0;
+      color: #e74c3c;
+    }
+
+    .btn {
+      background: #2ecc71;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #27ae60;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Toko Online Bloserif</h1>
+    <p>Selamat datang di toko online sederhana kami!</p>
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150" alt="Produk 1" />
+      <h3>Kaos Oversize</h3>
+      <p>Kaos bahan cotton combed 30s, nyaman dipakai.</p>
+      <div class="price">Rp85.000</div>
+      <button class="btn">Beli</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150" alt="Produk 2" />
+      <h3>Celana Cargo</h3>
+      <p>Celana cargo pria, stylish dan fungsional.</p>
+      <div class="price">Rp120.000</div>
+      <button class="btn">Beli</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150" alt="Produk 3" />
+      <h3>Sepatu Sneakers</h3>
+      <p>Sepatu kasual cocok untuk harian dan olahraga.</p>
+      <div class="price">Rp250.000</div>
+      <button class="btn">Beli</button>
+    </div>
+  </div>
+
+</body>
+</html>
